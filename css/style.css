@@ -21,16 +21,17 @@ font-family: "Rubik", sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
 }
 
 .cabecera .logo img{
-    width: 300px;
+    width: 250px;
     vertical-align: middle;
 }
 
 .navbar{
     font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
 }
 .menu {
     display: flex;
@@ -48,8 +49,12 @@ font-family: "Rubik", sans-serif;
         text-decoration: underline;
     }
 
+.menu__item:hover > a{
+    color: rgb(59, 63, 65);
+}
+
 .imagenPrincipal{
-    height: 100vh;
+    height: 60vh;
     background-image: url("../imagenes/portada.jpg");
     background-repeat: no-repeat;
     background-size: cover;
